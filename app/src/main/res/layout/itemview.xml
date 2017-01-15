@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="datetime"
+        android:id="@+id/tv_datetime"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="task"
+        android:id="@+id/tv_task"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="isFinish"
+        android:id="@+id/tv_status"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#000000" />
+</LinearLayout>
